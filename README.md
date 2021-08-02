@@ -1,7 +1,9 @@
 # STEVAL-MKI109V3-ism330dhcx
-development platform: STEVAL-MKI109V3;	sensor: ism330dhcx-accelemeter and gyroscope
+development platform: STEVAL-MKI109V3
 
-After generate C code of FSM from Unico-GUI, use the MCU (stm32f401ve) on the development platform to control the sensor. 	Use I2C channel to communicate with the sensor, which include writing the FSM to the sensor, and reading the FIFO data from the sensor.	The code also include the function to store the data into the flash memory of stm32.
+accelemeter and gyroscope sensor: ism330dhcx
+
+After generate C code of FSM from Unico-GUI, use the MCU (stm32f401ve) on the development platform to control the sensor: setup the sensor and get the data of the sensor.
 
 Before control the sensor, the program set up some necessary selector in the motherborad.
 
