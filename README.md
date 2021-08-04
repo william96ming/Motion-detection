@@ -1,4 +1,4 @@
-# STEVAL-MKI109V3-ism330dhcx
+# Motion detection-MKI109V3-ism330dhcx
 development platform: STEVAL-MKI109V3
 
 accelemeter and gyroscope sensor: ism330dhcx
